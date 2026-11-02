@@ -19,15 +19,22 @@ PALETTE = ["#D81B60", "#1F1F2E", "#F48FB1", "#6C63FF", "#FFB300", "#26A69A"]
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 DATA_PATH = Path(__file__).parent / "data" / "sugar_cosmetics_instagram_data.csv"
 
+# Background colours (change these to restyle the whole app)
+BG_MAIN = "#FDE7EF"     # main page background (soft blush pink)
+BG_SIDEBAR = "#F9CFDF"  # sidebar background
+
 st.markdown(f"""
 <style>
+.stApp {{background-color:{BG_MAIN};}}
+section[data-testid="stSidebar"] {{background-color:{BG_SIDEBAR};}}
+header[data-testid="stHeader"] {{background:transparent;}}
 .block-container {{padding-top: 1.5rem;}}
 div[data-testid="stMetric"] {{background:#fff;border:1px solid #eee;border-left:5px solid {PINK};
   padding:12px 16px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.05);}}
 div[data-testid="stMetricLabel"] p {{font-size:.8rem;color:#666;text-transform:uppercase;letter-spacing:.04em;}}
 .hero {{background:linear-gradient(90deg,{DARK},{PINK});color:#fff;padding:22px 28px;border-radius:14px;margin-bottom:14px;}}
 .hero h1 {{margin:0;font-size:1.9rem;color:#fff;}} .hero p {{margin:4px 0 0;opacity:.9;}}
-.insight {{background:#FFF5F8;border-left:4px solid {PINK};padding:10px 14px;border-radius:6px;margin:6px 0;}}
+.insight {{background:#FFFFFF;border-left:4px solid {PINK};padding:10px 14px;border-radius:6px;margin:6px 0;}}
 </style>""", unsafe_allow_html=True)
 
 
@@ -125,7 +132,8 @@ def delta(cur, old, pct=True):
 
 def style(fig, h=380):
     fig.update_layout(template="plotly_white", height=h, margin=dict(l=10, r=10, t=50, b=10),
-                      title_font_size=16, legend_title_text="", colorway=PALETTE)
+                      title_font_size=16, legend_title_text="", colorway=PALETTE,
+                      paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
     return fig
 
 
@@ -386,4 +394,4 @@ with tabs[8]:
                 st.error(f"AI request failed: {ex}")
 
 st.markdown("---")
-st.caption("Built with Streamlit & Plotly · P Suman Sangeet")
+st.caption("Built with Streamlit & Plotly · Riya Gupta")

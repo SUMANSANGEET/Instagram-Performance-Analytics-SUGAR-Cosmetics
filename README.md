@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://instagram-performance-analytics-sugar-cosmetics-3ku9v2whfwbumk.streamlit.app/"><strong>🚀 Open Live Dashboard</strong></a>
+  <a href="https://instagram-performance-analytics-sugar-cosmetics-t8k96n9oc6.streamlit.app/"><strong>🚀 Open Live Dashboard</strong></a>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 | Dataset shown in the app | 50,000 posts |
 | Displayed analysis period | 19 April 2024 – 19 April 2025 |
 | Primary use case | Social media performance monitoring and content strategy |
-| Live demo | [Launch the Streamlit app](https://instagram-performance-analytics-sugar-cosmetics-3ku9v2whfwbumk.streamlit.app/) |
+| Live demo | [Launch the Streamlit app](https://instagram-performance-analytics-sugar-cosmetics-t8k96n9oc6.streamlit.app/) |
 
 > **Data note:** Metrics and observations in the dashboard describe the dataset loaded into this portfolio project. They should not be interpreted as verified SUGAR Cosmetics account performance or official company reporting unless independently validated.
 
@@ -255,12 +255,12 @@ Use screenshots that do not expose API keys, account secrets, or private data.
 
 ## Author
 
-**P Suman Sangeet**  
-PGDM — Big Data Analytics | Data Analytics & Business Intelligence
+**Riya Gupta**  
+BCA graduate, pursuing MCA (AI & DS)
 
-- GitHub: [Add your GitHub profile URL]
-- LinkedIn: [Add your LinkedIn profile URL]
-- Live dashboard: [Instagram Performance Analytics — SUGAR Cosmetics](https://instagram-performance-analytics-sugar-cosmetics-3ku9v2whfwbumk.streamlit.app/)
+- GitHub: [https://github.com/Riyagupta321]
+- LinkedIn: [https://github.com/Riyagupta321]
+- Live dashboard: [Instagram Performance Analytics — SUGAR Cosmetics](https://instagram-performance-analytics-sugar-cosmetics-t8k96n9oc6.streamlit.app/)
 
 ---
 
